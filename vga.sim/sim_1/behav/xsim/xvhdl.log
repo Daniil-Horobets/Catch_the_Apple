@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Background_Object.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Background_Object'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Fruit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Fruit'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Life_Counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Life_Counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Player.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Player'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/TopModule.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TopModule'

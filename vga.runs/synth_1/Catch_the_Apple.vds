@@ -1,0 +1,589 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Mar  1 17:03:16 2024
+# Process ID: 1076402
+# Current directory: /home/prasic/Schreibtisch/PrASIC_Data/vga/vga.runs/synth_1
+# Command line: vivado -log Catch_the_Apple.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Catch_the_Apple.tcl
+# Log file: /home/prasic/Schreibtisch/PrASIC_Data/vga/vga.runs/synth_1/Catch_the_Apple.vds
+# Journal file: /home/prasic/Schreibtisch/PrASIC_Data/vga/vga.runs/synth_1/vivado.jou
+# Running On: LikeUE06, OS: Linux, CPU Frequency: 900.000 MHz, CPU Physical cores: 4, Host memory: 16678 MB
+#-----------------------------------------------------------
+source Catch_the_Apple.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1270.574 ; gain = 5.961 ; free physical = 5671 ; free virtual = 32805
+Command: read_checkpoint -auto_incremental -incremental /home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/utils_1/imports/synth_1/TopModule.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/utils_1/imports/synth_1/TopModule.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Catch_the_Apple -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1076423
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2037.164 ; gain = 407.590 ; free physical = 4659 ; free virtual = 31794
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Catch_the_Apple' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/TopModule.vhd:25]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at '/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.runs/synth_1/.Xil/Vivado-1076402-LikeUE06/realtime/clk_wiz_0_stub.vhdl:6' bound to instance 'clk_wiz_0_inst' of component 'clk_wiz_0' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/TopModule.vhd:264]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.runs/synth_1/.Xil/Vivado-1076402-LikeUE06/realtime/clk_wiz_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'VGA_Controller' declared at '/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/VGA_Controller.vhd:13' bound to instance 'VGA_Controller_inst' of component 'VGA_Controller' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/TopModule.vhd:275]
+INFO: [Synth 8-638] synthesizing module 'VGA_Controller' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/VGA_Controller.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Controller' (0#1) [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/VGA_Controller.vhd:31]
+INFO: [Synth 8-3491] module 'Background_Object' declared at '/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Background_Object.vhd:4' bound to instance 'Background_Object_inst' of component 'Background_Object' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/TopModule.vhd:292]
+INFO: [Synth 8-638] synthesizing module 'Background_Object' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Background_Object.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'Background_Object' (0#1) [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Background_Object.vhd:17]
+INFO: [Synth 8-3491] module 'Priority_MUX' declared at '/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Priority_MUX.vhd:4' bound to instance 'Priority_MUX_inst' of component 'Priority_MUX' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/TopModule.vhd:307]
+INFO: [Synth 8-638] synthesizing module 'Priority_MUX' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Priority_MUX.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'Priority_MUX' (0#1) [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Priority_MUX.vhd:26]
+INFO: [Synth 8-3491] module 'Player' declared at '/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Player.vhd:4' bound to instance 'Player_inst' of component 'Player' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/TopModule.vhd:329]
+INFO: [Synth 8-638] synthesizing module 'Player' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Player.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'Player' (0#1) [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Player.vhd:23]
+	Parameter id_Num bound to: 0 - type: integer 
+	Parameter rand_vec_start bound to: 12'b101010010011 
+	Parameter ColorTest bound to: 12'b111100000000 
+	Parameter init_time bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'Fruit' declared at '/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Fruit.vhd:5' bound to instance 'Fruit_0' of component 'Fruit' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/TopModule.vhd:348]
+INFO: [Synth 8-638] synthesizing module 'Fruit' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Fruit.vhd:27]
+	Parameter id_Num bound to: 0 - type: integer 
+	Parameter rand_vec_start bound to: 12'b101010010011 
+	Parameter ColorTest bound to: 12'b111100000000 
+	Parameter init_time bound to: 0 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Fruit' (0#1) [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Fruit.vhd:27]
+	Parameter id_Num bound to: 1 - type: integer 
+	Parameter rand_vec_start bound to: 12'b101001110010 
+	Parameter ColorTest bound to: 12'b000000001111 
+	Parameter init_time bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'Fruit' declared at '/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Fruit.vhd:5' bound to instance 'Fruit_1' of component 'Fruit' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/TopModule.vhd:369]
+INFO: [Synth 8-638] synthesizing module 'Fruit__parameterized1' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Fruit.vhd:27]
+	Parameter id_Num bound to: 1 - type: integer 
+	Parameter rand_vec_start bound to: 12'b101001110010 
+	Parameter ColorTest bound to: 12'b000000001111 
+	Parameter init_time bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Fruit__parameterized1' (0#1) [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Fruit.vhd:27]
+	Parameter id_Num bound to: 2 - type: integer 
+	Parameter rand_vec_start bound to: 12'b111001110100 
+	Parameter ColorTest bound to: 12'b000011110000 
+	Parameter init_time bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'Fruit' declared at '/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Fruit.vhd:5' bound to instance 'Fruit_2' of component 'Fruit' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/TopModule.vhd:390]
+INFO: [Synth 8-638] synthesizing module 'Fruit__parameterized3' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Fruit.vhd:27]
+	Parameter id_Num bound to: 2 - type: integer 
+	Parameter rand_vec_start bound to: 12'b111001110100 
+	Parameter ColorTest bound to: 12'b000011110000 
+	Parameter init_time bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Fruit__parameterized3' (0#1) [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Fruit.vhd:27]
+	Parameter id_Num bound to: 0 - type: integer 
+	Parameter rand_vec_start bound to: 12'b111010010011 
+	Parameter ColorTest bound to: 12'b111111111111 
+	Parameter init_time bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'poisonous_fruit' declared at '/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/poisonous_fruit.vhd:5' bound to instance 'poisonous_fruit_inst' of component 'poisonous_fruit' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/TopModule.vhd:410]
+INFO: [Synth 8-638] synthesizing module 'poisonous_fruit' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/poisonous_fruit.vhd:27]
+	Parameter id_Num bound to: 0 - type: integer 
+	Parameter rand_vec_start bound to: 12'b111010010011 
+	Parameter ColorTest bound to: 12'b111111111111 
+	Parameter init_time bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'poisonous_fruit' (0#1) [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/poisonous_fruit.vhd:27]
+INFO: [Synth 8-3491] module 'Collision' declared at '/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Collision.vhd:4' bound to instance 'Collision_inst' of component 'Collision' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/TopModule.vhd:431]
+INFO: [Synth 8-638] synthesizing module 'Collision' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Collision.vhd:38]
+WARNING: [Synth 8-614] signal 'Reset' is read in the process but is not in the sensitivity list [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Collision.vhd:79]
+INFO: [Synth 8-256] done synthesizing module 'Collision' (0#1) [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Collision.vhd:38]
+INFO: [Synth 8-3491] module 'Life_Counter' declared at '/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Life_Counter.vhd:5' bound to instance 'Life_Counter_inst' of component 'Life_Counter' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/TopModule.vhd:466]
+INFO: [Synth 8-638] synthesizing module 'Life_Counter' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Life_Counter.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'Life_Counter' (0#1) [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Life_Counter.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'Catch_the_Apple' (0#1) [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/TopModule.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element s_failp_reg was removed.  [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Collision.vhd:200]
+WARNING: [Synth 8-3848] Net Col_O in module/entity Collision does not have driver. [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Collision.vhd:35]
+WARNING: [Synth 8-3848] Net s_ex_bg in module/entity Catch_the_Apple does not have driver. [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/TopModule.vhd:43]
+WARNING: [Synth 8-7129] Port pclk in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[9] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[8] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[7] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[6] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[5] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[4] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[3] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[2] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[1] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[0] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FEnd in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[11] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[10] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[9] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[8] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[7] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[6] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[5] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[4] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[3] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[2] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[1] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[0] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[9] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[8] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[7] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[6] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[5] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[4] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[3] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[2] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[1] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[0] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ex_bg in module Priority_MUX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pclk in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[9] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[8] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[7] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[6] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[5] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[4] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[3] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[2] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[1] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[0] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FEnd in module Background_Object is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2131.133 ; gain = 501.559 ; free physical = 4539 ; free virtual = 31675
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2145.977 ; gain = 516.402 ; free physical = 4539 ; free virtual = 31674
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2145.977 ; gain = 516.402 ; free physical = 4539 ; free virtual = 31674
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2145.977 ; gain = 0.000 ; free physical = 4539 ; free virtual = 31674
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0_inst'
+Finished Parsing XDC File [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0_inst'
+Parsing XDC File [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/constrs_1/imports/PrASIC_Data/Nexys4_Master.xdc]
+Finished Parsing XDC File [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/constrs_1/imports/PrASIC_Data/Nexys4_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/constrs_1/imports/PrASIC_Data/Nexys4_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Catch_the_Apple_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Catch_the_Apple_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2290.727 ; gain = 0.000 ; free physical = 4527 ; free virtual = 31663
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2290.762 ; gain = 0.000 ; free physical = 4527 ; free virtual = 31663
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2290.762 ; gain = 661.188 ; free physical = 4518 ; free virtual = 31653
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2290.762 ; gain = 661.188 ; free physical = 4518 ; free virtual = 31653
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  /home/prasic/Schreibtisch/PrASIC_Data/vga/vga.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  /home/prasic/Schreibtisch/PrASIC_Data/vga/vga.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for clk_wiz_0_inst. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2290.762 ; gain = 661.188 ; free physical = 4518 ; free virtual = 31653
+---------------------------------------------------------------------------------
+DSP Debug: swapped A/B pins for adder 0x2caaf440
+DSP Debug: swapped A/B pins for adder 0x2caae900
+DSP Debug: swapped A/B pins for adder 0x2caaeea0
+DSP Debug: swapped A/B pins for adder 0x2c3ebf80
+WARNING: [Synth 8-327] inferring latch for variable 'Color_reg' [/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.srcs/sources_1/new/Player.vhd:130]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2290.762 ; gain = 661.188 ; free physical = 4516 ; free virtual = 31653
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   11 Bit       Adders := 14    
+	   3 Input   11 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 35    
+	   3 Input   10 Bit       Adders := 2     
+	   3 Input    9 Bit       Adders := 3     
+	   2 Input    9 Bit       Adders := 21    
+	   2 Input    6 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 4     
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 1     
++---XORs : 
+	   4 Input      1 Bit         XORs := 4     
++---Registers : 
+	               12 Bit    Registers := 9     
+	               10 Bit    Registers := 6     
+	                9 Bit    Registers := 3     
+	                6 Bit    Registers := 5     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 29    
++---Muxes : 
+	   2 Input   12 Bit        Muxes := 52    
+	  17 Input   12 Bit        Muxes := 1     
+	   4 Input   12 Bit        Muxes := 1     
+	   3 Input   12 Bit        Muxes := 6     
+	   2 Input   11 Bit        Muxes := 6     
+	   3 Input   11 Bit        Muxes := 2     
+	   2 Input   10 Bit        Muxes := 19    
+	   4 Input   10 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 9     
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 7     
+	   2 Input    5 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 181   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP distance_func0, operation Mode is: A*B.
+DSP Report: operator distance_func0 is absorbed into DSP distance_func0.
+DSP Report: Generating DSP distance_func, operation Mode is: PCIN+(D+(A:0x3fffff24))*B.
+DSP Report: operator distance_func is absorbed into DSP distance_func.
+DSP Report: operator distance_func0 is absorbed into DSP distance_func.
+DSP Report: operator distance_func1 is absorbed into DSP distance_func.
+DSP Report: Generating DSP distance_func0, operation Mode is: A*B.
+DSP Report: operator distance_func0 is absorbed into DSP distance_func0.
+DSP Report: Generating DSP distance_func, operation Mode is: PCIN+(D+(A:0x3fffff92))*B.
+DSP Report: operator distance_func is absorbed into DSP distance_func.
+DSP Report: operator distance_func0 is absorbed into DSP distance_func.
+DSP Report: operator distance_func1 is absorbed into DSP distance_func.
+DSP Report: Generating DSP distance_func, operation Mode is: C+(D+(A:0x3ffffde4))*B.
+DSP Report: operator distance_func is absorbed into DSP distance_func.
+DSP Report: operator distance_func0 is absorbed into DSP distance_func.
+DSP Report: operator distance_func1 is absorbed into DSP distance_func.
+DSP Report: Generating DSP distance_func0, operation Mode is: (D+(A:0x3fffffb0))*B.
+DSP Report: operator distance_func0 is absorbed into DSP distance_func0.
+DSP Report: operator distance_func1 is absorbed into DSP distance_func0.
+DSP Report: Generating DSP distance_func0, operation Mode is: (D+(A:0x3fffff60))*B.
+DSP Report: operator distance_func0 is absorbed into DSP distance_func0.
+DSP Report: operator distance_func1 is absorbed into DSP distance_func0.
+DSP Report: Generating DSP distance_func0, operation Mode is: (D+(A:0x3fffff10))*B.
+DSP Report: operator distance_func0 is absorbed into DSP distance_func0.
+DSP Report: operator distance_func1 is absorbed into DSP distance_func0.
+DSP Report: Generating DSP distance_func0, operation Mode is: (D+(A:0x3ffffdd0))*B.
+DSP Report: operator distance_func0 is absorbed into DSP distance_func0.
+DSP Report: operator distance_func1 is absorbed into DSP distance_func0.
+DSP Report: Generating DSP distance_func0, operation Mode is: (D-A)*B.
+DSP Report: operator distance_func0 is absorbed into DSP distance_func0.
+DSP Report: operator distance_func1 is absorbed into DSP distance_func0.
+DSP Report: Generating DSP exist2, operation Mode is: (C:0xa)+(A:0xa)*B.
+DSP Report: operator exist2 is absorbed into DSP exist2.
+DSP Report: operator exist3 is absorbed into DSP exist2.
+DSP Report: Generating DSP exist2, operation Mode is: (C:0x2)+(A:0xa)*B.
+DSP Report: operator exist2 is absorbed into DSP exist2.
+DSP Report: operator exist3 is absorbed into DSP exist2.
+DSP Report: Generating DSP exist1, operation Mode is: (A:0xa)*B+1.
+DSP Report: operator exist1 is absorbed into DSP exist1.
+DSP Report: operator exist3 is absorbed into DSP exist1.
+DSP Report: Generating DSP exist2, operation Mode is: (C:0x3)+(A:0xa)*B.
+DSP Report: operator exist2 is absorbed into DSP exist2.
+DSP Report: operator exist3 is absorbed into DSP exist2.
+DSP Report: Generating DSP exist3, operation Mode is: (C:0x5)+(A:0xa)*B.
+DSP Report: operator exist3 is absorbed into DSP exist3.
+DSP Report: operator exist3 is absorbed into DSP exist3.
+DSP Report: Generating DSP exist3, operation Mode is: (C:0x4)+(A:0xa)*B.
+DSP Report: operator exist3 is absorbed into DSP exist3.
+DSP Report: operator exist3 is absorbed into DSP exist3.
+DSP Report: Generating DSP exist2, operation Mode is: (C:0x6)+(A:0xa)*B.
+DSP Report: operator exist2 is absorbed into DSP exist2.
+DSP Report: operator exist3 is absorbed into DSP exist2.
+DSP Report: Generating DSP exist2, operation Mode is: (C:0x7)+(A:0xa)*B.
+DSP Report: operator exist2 is absorbed into DSP exist2.
+DSP Report: operator exist3 is absorbed into DSP exist2.
+DSP Report: Generating DSP exist2, operation Mode is: (C:0x8)+(A:0xa)*B.
+DSP Report: operator exist2 is absorbed into DSP exist2.
+DSP Report: operator exist3 is absorbed into DSP exist2.
+DSP Report: Generating DSP exist2, operation Mode is: (C:0x9)+(A:0xa)*B.
+DSP Report: operator exist2 is absorbed into DSP exist2.
+DSP Report: operator exist3 is absorbed into DSP exist2.
+WARNING: [Synth 8-7129] Port pclk in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[9] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[8] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[7] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[6] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[5] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[4] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[3] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[2] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[1] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[0] in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FEnd in module Life_Counter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[11] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[10] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[9] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[8] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[7] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[6] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[5] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[4] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[3] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[2] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[1] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Col_O[0] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[9] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[8] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[7] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[6] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[5] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[4] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[3] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[2] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[1] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[0] in module Collision is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ex_bg in module Priority_MUX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pclk in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[9] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[8] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[7] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[6] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[5] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[4] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[3] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[2] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[1] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FCnt[0] in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FEnd in module Background_Object is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (Color_reg[9]) is unused and will be removed from module Player.
+WARNING: [Synth 8-3332] Sequential element (Color_reg[7]) is unused and will be removed from module Player.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 2290.762 ; gain = 661.188 ; free physical = 4504 ; free virtual = 31648
+---------------------------------------------------------------------------------
+ Sort Area is  distance_func0_3 : 0 0 : 713 1706 : Used 1 time 0
+ Sort Area is  distance_func0_3 : 0 1 : 993 1706 : Used 1 time 0
+ Sort Area is  distance_func0_0 : 0 0 : 713 1703 : Used 1 time 0
+ Sort Area is  distance_func0_0 : 0 1 : 990 1703 : Used 1 time 0
+ Sort Area is  distance_func_5 : 0 0 : 991 991 : Used 1 time 0
+ Sort Area is  distance_func0_e : 0 0 : 982 982 : Used 1 time 0
+ Sort Area is  distance_func0_7 : 0 0 : 928 928 : Used 1 time 0
+ Sort Area is  distance_func0_c : 0 0 : 927 927 : Used 1 time 0
+ Sort Area is  distance_func0_9 : 0 0 : 925 925 : Used 1 time 0
+ Sort Area is  distance_func0_b : 0 0 : 925 925 : Used 1 time 0
+ Sort Area is  exist2_1a : 0 0 : 74 74 : Used 1 time 0
+ Sort Area is  exist2_1b : 0 0 : 74 74 : Used 1 time 0
+ Sort Area is  exist3_17 : 0 0 : 74 74 : Used 1 time 0
+ Sort Area is  exist3_19 : 0 0 : 74 74 : Used 1 time 0
+ Sort Area is  exist1_14 : 0 0 : 73 73 : Used 1 time 0
+ Sort Area is  exist2_10 : 0 0 : 72 72 : Used 1 time 0
+ Sort Area is  exist2_1c : 0 0 : 72 72 : Used 1 time 0
+ Sort Area is  exist2_1d : 0 0 : 72 72 : Used 1 time 0
+ Sort Area is  exist2_12 : 0 0 : 71 71 : Used 1 time 0
+ Sort Area is  exist2_16 : 0 0 : 71 71 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------------+---------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name       | DSP Mapping               | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------------+---------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Background_Object | A*B                       | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Background_Object | PCIN+(D+(A:0x3fffff24))*B | 9      | 11     | -      | 10     | 20     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|Background_Object | A*B                       | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Background_Object | PCIN+(D+(A:0x3fffff92))*B | 8      | 11     | -      | 10     | 20     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|Background_Object | C+(D+(A:0x3ffffde4))*B    | 11     | 11     | 20     | 10     | 20     | 0    | 0    | 0    | 0    | 0     | 0    | 0    | 
+|Background_Object | (D+(A:0x3fffffb0))*B      | 8      | 11     | -      | 10     | 22     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|Background_Object | (D+(A:0x3fffff60))*B      | 9      | 11     | -      | 10     | 22     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|Background_Object | (D+(A:0x3fffff10))*B      | 9      | 11     | -      | 10     | 22     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|Background_Object | (D+(A:0x3ffffdd0))*B      | 11     | 11     | -      | 10     | 22     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|Player            | (D-A)*B                   | 10     | 11     | -      | 10     | 22     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|Life_Counter      | (C:0xa)+(A:0xa)*B         | 7      | 11     | 4      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Life_Counter      | (C:0x2)+(A:0xa)*B         | 7      | 11     | 2      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Life_Counter      | (A:0xa)*B+1               | 7      | 11     | -      | -      | 11     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Life_Counter      | (C:0x3)+(A:0xa)*B         | 7      | 11     | 2      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Life_Counter      | (C:0x5)+(A:0xa)*B         | 7      | 11     | 3      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Life_Counter      | (C:0x4)+(A:0xa)*B         | 7      | 11     | 3      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Life_Counter      | (C:0x6)+(A:0xa)*B         | 7      | 11     | 3      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Life_Counter      | (C:0x7)+(A:0xa)*B         | 7      | 11     | 3      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Life_Counter      | (C:0x8)+(A:0xa)*B         | 7      | 11     | 4      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Life_Counter      | (C:0x9)+(A:0xa)*B         | 7      | 11     | 4      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++------------------+---------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 2290.762 ; gain = 661.188 ; free physical = 4504 ; free virtual = 31648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:36 . Memory (MB): peak = 2290.762 ; gain = 661.188 ; free physical = 4489 ; free virtual = 31634
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 2290.762 ; gain = 661.188 ; free physical = 4470 ; free virtual = 31614
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:41 ; elapsed = 00:00:41 . Memory (MB): peak = 2290.762 ; gain = 661.188 ; free physical = 4470 ; free virtual = 31614
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:41 ; elapsed = 00:00:41 . Memory (MB): peak = 2290.762 ; gain = 661.188 ; free physical = 4470 ; free virtual = 31614
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 2290.762 ; gain = 661.188 ; free physical = 4470 ; free virtual = 31614
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 2290.762 ; gain = 661.188 ; free physical = 4470 ; free virtual = 31614
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 2290.762 ; gain = 661.188 ; free physical = 4470 ; free virtual = 31614
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 2290.762 ; gain = 661.188 ; free physical = 4470 ; free virtual = 31614
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name       | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Background_Object | A*B         | 30     | 18     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Background_Object | PCIN+D+A*B  | 30     | 18     | -      | 10     | 20     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|Background_Object | A*B         | 30     | 18     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Background_Object | PCIN+D+A*B  | 30     | 18     | -      | 10     | 20     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|Background_Object | C+D+A*B     | 30     | 18     | 48     | 10     | 20     | 0    | 0    | 0    | 0    | 0     | 0    | 0    | 
+|Background_Object | D+A*B       | 30     | 18     | -      | 10     | 22     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|Background_Object | D+A*B       | 30     | 18     | -      | 10     | 22     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|Background_Object | D+A*B       | 30     | 18     | -      | 10     | 22     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|Background_Object | D+A*B       | 30     | 18     | -      | 10     | 22     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|Life_Counter      | C+A*B       | 7      | 4      | 4      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Life_Counter      | C+A*B       | 7      | 4      | 2      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Life_Counter      | C+A*B       | 7      | 4      | 2      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Life_Counter      | C+A*B       | 7      | 4      | 3      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Life_Counter      | C+A*B       | 7      | 4      | 3      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Life_Counter      | C+A*B       | 7      | 4      | 3      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Life_Counter      | C+A*B       | 7      | 4      | 3      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Life_Counter      | C+A*B       | 7      | 4      | 4      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Life_Counter      | C+A*B       | 7      | 4      | 4      | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Player            | D-A*B       | 10     | 18     | -      | 10     | 22     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
++------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |clk_wiz_0_bbox |     1|
+|2     |CARRY4         |   384|
+|3     |DSP48E1        |    19|
+|7     |LUT1           |    47|
+|8     |LUT2           |   615|
+|9     |LUT3           |   280|
+|10    |LUT4           |   500|
+|11    |LUT5           |   472|
+|12    |LUT6           |   961|
+|13    |MUXF7          |     1|
+|14    |FDCE           |    98|
+|15    |FDPE           |    14|
+|16    |FDRE           |   136|
+|17    |FDSE           |     7|
+|18    |LD             |     2|
+|19    |IBUF           |     3|
+|20    |OBUF           |    14|
++------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 2290.762 ; gain = 661.188 ; free physical = 4470 ; free virtual = 31614
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 53 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 2290.762 ; gain = 516.402 ; free physical = 4470 ; free virtual = 31614
+Synthesis Optimization Complete : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 2290.762 ; gain = 661.188 ; free physical = 4470 ; free virtual = 31614
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2290.762 ; gain = 0.000 ; free physical = 4739 ; free virtual = 31883
+INFO: [Netlist 29-17] Analyzing 406 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2298.727 ; gain = 0.000 ; free physical = 4739 ; free virtual = 31884
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  LD => LDCE: 2 instances
+
+Synth Design complete | Checksum: 1920b707
+INFO: [Common 17-83] Releasing license: Synthesis
+55 Infos, 106 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:46 . Memory (MB): peak = 2298.762 ; gain = 1012.344 ; free physical = 4739 ; free virtual = 31884
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1879.396; main = 1551.976; forked = 372.622
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3246.488; main = 2298.730; forked = 979.773
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2322.738 ; gain = 0.000 ; free physical = 4739 ; free virtual = 31884
+INFO: [Common 17-1381] The checkpoint '/home/prasic/Schreibtisch/PrASIC_Data/vga/vga.runs/synth_1/Catch_the_Apple.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Catch_the_Apple_utilization_synth.rpt -pb Catch_the_Apple_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Mar  1 17:04:10 2024...

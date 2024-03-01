@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_VGA_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_VGA" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="1,267.000001 us"></ZoomEndTime>
+      <Cursor1Time time="6.958678 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="294"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject type="other" fp_name="/tb_VGA/TopModule_inst/Life_Counter_inst/i">
+      <obj_property name="ElementShortName">i</obj_property>
+      <obj_property name="ObjectShortName">i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_VGA/TopModule_inst/Life_Counter_inst/pclk">
+      <obj_property name="ElementShortName">pclk</obj_property>
+      <obj_property name="ObjectShortName">pclk</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_VGA/TopModule_inst/Life_Counter_inst/HCnt">
+      <obj_property name="ElementShortName">HCnt</obj_property>
+      <obj_property name="ObjectShortName">HCnt</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_VGA/TopModule_inst/Life_Counter_inst/VCnt">
+      <obj_property name="ElementShortName">VCnt</obj_property>
+      <obj_property name="ObjectShortName">VCnt</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_VGA/TopModule_inst/Life_Counter_inst/life">
+      <obj_property name="ElementShortName">life</obj_property>
+      <obj_property name="ObjectShortName">life</obj_property>
+   </wvobject>
+</wave_config>

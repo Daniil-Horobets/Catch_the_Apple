@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1709308993">
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Catch_the_Apple_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="Catch_the_Apple_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-BGN" Name="Catch_the_Apple.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="Catch_the_Apple.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Catch_the_Apple.ltx"/>
+  <File Type="RBD_FILE" Name="Catch_the_Apple.rbd"/>
+  <File Type="NPI_FILE" Name="Catch_the_Apple.npi"/>
+  <File Type="RNPI_FILE" Name="Catch_the_Apple.rnpi"/>
+  <File Type="CFI_FILE" Name="Catch_the_Apple.cfi"/>
+  <File Type="RCFI_FILE" Name="Catch_the_Apple.rcfi"/>
+  <File Type="PL-PDI-FILE" Name="Catch_the_Apple_pld.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Catch_the_Apple_boot.pdi"/>
+  <File Type="RDI-RDI" Name="Catch_the_Apple.vdi"/>
+  <File Type="PDI-FILE" Name="Catch_the_Apple.pdi"/>
+  <File Type="BITSTR-MMI" Name="Catch_the_Apple.mmi"/>
+  <File Type="BITSTR-BMM" Name="Catch_the_Apple_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="Catch_the_Apple.nky"/>
+  <File Type="BITSTR-RBT" Name="Catch_the_Apple.rbt"/>
+  <File Type="BITSTR-MSK" Name="Catch_the_Apple.msk"/>
+  <File Type="BG-BIN" Name="Catch_the_Apple.bin"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="BG-BIT" Name="Catch_the_Apple.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="TopModule_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="TopModule_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="TopModule_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="TopModule_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="TopModule_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="TopModule_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Catch_the_Apple_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Catch_the_Apple_postroute_physopt.dcp"/>
+  <File Type="BG-DRC" Name="Catch_the_Apple.drc"/>
+  <File Type="ROUTE-RQS-PB" Name="Catch_the_Apple_rqs_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Catch_the_Apple_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Catch_the_Apple_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Catch_the_Apple_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Catch_the_Apple_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="Catch_the_Apple_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Catch_the_Apple_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="Catch_the_Apple_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Catch_the_Apple_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Catch_the_Apple_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="Catch_the_Apple_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Catch_the_Apple_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="Catch_the_Apple_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Catch_the_Apple_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Catch_the_Apple_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Catch_the_Apple_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Catch_the_Apple_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="Catch_the_Apple_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="Catch_the_Apple_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Catch_the_Apple_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Catch_the_Apple_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="Catch_the_Apple_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Catch_the_Apple_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="Catch_the_Apple_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="Catch_the_Apple_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Catch_the_Apple_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Catch_the_Apple_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Catch_the_Apple_postplace_pwropt.dcp"/>
+  <File Type="PLACE-RQA-PB" Name="Catch_the_Apple_rqa_placed.pb"/>
+  <File Type="PLACE-TIMING" Name="Catch_the_Apple_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Catch_the_Apple_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Catch_the_Apple_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="Catch_the_Apple_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Catch_the_Apple_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="Catch_the_Apple_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Catch_the_Apple_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="Catch_the_Apple_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="Catch_the_Apple_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="Catch_the_Apple_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Catch_the_Apple_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Catch_the_Apple_pwropt.dcp"/>
+  <File Type="OPT-RQA-PB" Name="Catch_the_Apple_rqa_opted.pb"/>
+  <File Type="OPT-HWDEF" Name="Catch_the_Apple.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Catch_the_Apple_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="Catch_the_Apple_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Catch_the_Apple_opt.dcp"/>
+  <File Type="OPT-TIMING" Name="Catch_the_Apple_timing_summary_opted.rpt"/>
+  <File Type="REPORTS-TCL" Name="Catch_the_Apple_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="Catch_the_Apple_timing_summary_init.rpt"/>
+  <File Type="PA-TCL" Name="Catch_the_Apple.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Background_Object.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Collision.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Fruit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Life_Counter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Player.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Priority_MUX.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA_Controller.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/poisonous_fruit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TopModule.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Catch_the_Apple"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/PrASIC_Data/Nexys4_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Nexys4_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1378293982"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/TopModule.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>
