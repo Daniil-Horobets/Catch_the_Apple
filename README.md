@@ -50,5 +50,5 @@ the left (BTNL) and right (BTNR) buttons to control the basket. After a game ove
 with no additional controls required.
 
 ## Reference
-This project was developed as a part of ASIC lab at [Fridrich-Alexander University of Erlangen-Nuremberg](https://www.fau.eu/) 
+This project was developed as a part of ASIC lab at [Fridrich-Alexander University of Erlangen-Nuremberg (FAU)](https://www.fau.eu/) 
 by myself and [alikarimie96](https://github.com/alikarimie96).
